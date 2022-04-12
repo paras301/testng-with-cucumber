@@ -36,13 +36,13 @@ public class HomeButtonFeatureTest extends TestRunner {
 //	}
 
 	@When("^User clicks on Home Button$")
-	public void enter_the_Username_and_Password() throws Throwable
+	public void user_clicks_on_home_button() throws Throwable
 	{
 		webdriver.findElement(By.xpath("//a[normalize-space()='Home']")).click();
 	}
 
 	@Then("^Home website \"(.*)\" is reached$")
-	public void reset_the_credential(String expectedUrl) throws InterruptedException {
+	public void home_website_is_reached(String expectedUrl) throws InterruptedException {
 		String url = webdriver.getCurrentUrl();
 		Assert.assertEquals(expectedUrl, url);
 	}

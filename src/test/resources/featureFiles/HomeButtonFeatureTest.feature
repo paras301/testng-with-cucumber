@@ -1,6 +1,6 @@
-Feature: Login Scenarios
+Feature: Home Button Functionality Scenarios
 
-  Scenario Outline: Reset Functionality
+  Scenario Outline: Home Button Functionality
     Given User navigates to "<website>"
     When User clicks on Home Button
     Then Home website "<website2>" is reached

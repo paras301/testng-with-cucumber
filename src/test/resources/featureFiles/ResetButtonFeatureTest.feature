@@ -1,4 +1,4 @@
-Feature: Login Scenarios
+Feature: Reset Functionality Scenarios
 
   Scenario Outline: Reset Functionality
     Given User navigates to "<website>"
