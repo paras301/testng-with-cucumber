@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+       <parameter name="platform" value="${platform}" />
+        
+         <test name="TestSuite" >
+          <classes>
+              <class name="com.company.runner.TestRunner"/>
+          </classes>
+        </test>
+</suite>
